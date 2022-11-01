@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import logo from '../media/portfoliologo.png'
-import NavMenu from './NavMenu';
 
 
 const Header = () => {
   return (
     <nav className="my-4 h-[60px] md:h-[50px] flex justify-center md:justify-between lg:mx-[5%] md:p-[20px] w-full lg:w-[90%]">
       <div className="logo">
-        <a href="#">
+        <a href="#welcome">
           <img src={logo}
             className="h-[40px] my-[5px] ml-[5px] hover:cursor-pointer md:hover:scale-[150%] transition-[250ms]"
             alt="logo"

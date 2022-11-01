@@ -16,8 +16,8 @@ const Work = () => {
             <p className='text-sm'>{project.detail}</p>
             
             <div className="links flex justify-between relative ">
-              <a target="_blank" className='hover:underline hover:text-gray-300' href={project.repo}>Github ↗</a>
-              <a target="_blank" className='hover:underline hover:text-gray-300' href={project.prev}>Preview ↗</a>
+              <a target="_blank" rel="noreferrer" className='hover:underline hover:text-gray-300' href={project.repo}>Github ↗</a>
+              <a target="_blank" rel="noreferrer" className='hover:underline hover:text-gray-300' href={project.prev}>Preview ↗</a>
             </div>
           </div>
         ))}
