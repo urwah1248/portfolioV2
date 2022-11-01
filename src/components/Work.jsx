@@ -22,7 +22,7 @@ const Work = () => {
           </div>
         ))}
       </div>
-      <a href="github.com/urwah1248"><button className='font-mono block mx-auto mt-5 text-accent border-2 border-accent hover:bg-accent hover:text-black h-8 px-4 rounded-md leading-none transition-[250ms]'>View More on Github</button></a>
+      <a href="https://github.com/urwah1248" target='_blank' rel="noreferrer"><button className='font-mono block mx-auto mt-5 text-accent border-2 border-accent hover:bg-accent hover:text-black h-8 px-4 rounded-md leading-none transition-[250ms]'>View More on Github</button></a>
     </div>
   )
 }

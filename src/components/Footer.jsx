@@ -8,9 +8,9 @@ const Footer = () => {
     <div>
       <div className="hidden left-fixedbar md:block fixed w-6 h-[400px] bottom-0 left-5">
         <div className="icons flex flex-col gap-4">
-          <IconGitHub/>
-          <IconLinkedin/>
-          <IconTwitter/>
+          <a href="https://github.com/urwah1248" target='_blank' rel="noreferrer"><IconGitHub/></a>
+          <a href="https://www.linkedin.com/in/m-urwah-shahid-053a38229/" target='_blank' rel="noreferrer"><IconLinkedin/></a>
+          <a href="https://twitter.com/shahid_urwah" target='_blank' rel="noreferrer"><IconTwitter/></a>
           <div className='h-[300px] w-1 bg-gray-400 mx-auto'></div>
         </div>
       </div>
@@ -24,9 +24,9 @@ const Footer = () => {
       </div>
 
       <div className="md:hidden links flex flex-row w-1/2 mx-auto justify-evenly h-8 my-5">
-          <IconGitHub/>
-          <IconLinkedin/>
-          <IconTwitter/>
+          <a href="https://github.com/urwah1248" target='_blank' rel="noreferrer"><IconGitHub/></a>
+          <a href="https://www.linkedin.com/in/m-urwah-shahid-053a38229/" target='_blank' rel="noreferrer"><IconLinkedin/></a>
+          <a href="https://twitter.com/shahid_urwah" target='_blank' rel="noreferrer"><IconTwitter/></a>
       </div>
 
       <p className='font-mono text-center text-gray-500'>All rights reserved. Created by Muhammad Urwah</p>

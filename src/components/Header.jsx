@@ -31,9 +31,12 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <button className="text-accent border-2 border-accent hover:bg-accent hover:text-black h-8 px-4 rounded-md leading-none transition-[250ms]">
-            Resume
-          </button>
+          <a target='_blank' rel="noreferrer" href="https://urwah1248.github.io/urwah1248/resume.pdf">
+            <button className="text-accent border-2 border-accent hover:bg-accent hover:text-black h-8 px-4 rounded-md leading-none transition-[250ms]">
+              Resume
+            </button>
+          </a>
+          
         </li>
       </ul>
 
