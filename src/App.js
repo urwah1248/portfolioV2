@@ -3,6 +3,7 @@ import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Sidebars from "./components/Sidebars";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
       </main>
 
+      <Sidebars/>
       <Footer/>
 
     </div>
