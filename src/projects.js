@@ -2,6 +2,7 @@ import p1 from './media/project1.png'
 import p2 from './media/project2.png'
 import p3 from './media/project3.png'
 import p4 from './media/project4.png'
+import p5 from './media/project5.png'
 
 
 const projects = [
@@ -31,6 +32,12 @@ const projects = [
         img: p4,
         repo: "https://github.com/urwah1248/Little-Lemon-Restaurant-Website",
         prev: "https://urwah1248.github.io/Little-Lemon-Restaurant-Website/"
+    },{
+        title: "30 Days of Code",
+        detail: "30 JavaScript projects made within 30 days",
+        img: p5,
+        repo: "https://github.com/urwah1248/30-Days-Of-Code",
+        prev: "https://urwah1248.github.io/30-Days-Of-Code"
     }
 ]
 
