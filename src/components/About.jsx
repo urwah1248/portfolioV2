@@ -7,6 +7,7 @@ const About = () => {
       <h2>
         <span className="font-mono text-accent">01.</span> About Me
       </h2>
+      
       <div className="all flex flex-col sm:flex-row">
         <div className="left w-full sm:w-1/2">
           <p>
@@ -37,7 +38,7 @@ const About = () => {
           </div>
         </div>
         <div className="right w-full sm:w-1/2 align-middle">
-          <img src={pfp} alt="Urwah" className="w-[50vw] sm:w-[25vw] mx-auto" />
+          <img src={pfp} alt="Urwah" className="w-[50vw] sm:w-[25vw] mx-auto rounded-full md:opacity-50 transition-[250ms] hover:opacity-100 md:hover:scale-[110%] z-0" />
         </div>
       </div>
     </div>

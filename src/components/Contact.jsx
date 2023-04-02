@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id="contact" className="section">
+    <div id="contact" className="section scroll-m-[-50px] my-0 md:my-10">
       <h2>
         <span className="font-mono text-accent">03.</span> Get in touch
       </h2>

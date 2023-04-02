@@ -18,7 +18,7 @@ html{
         @apply font-sans text-lg text-gray-400
     }
     .section{
-        @apply align-middle flex flex-col justify-center md:h-screen my-10 md:my-0
+        @apply align-middle flex flex-col justify-center h-screen my-10 md:my-0
     }
     .cards{
         @apply flex flex-wrap

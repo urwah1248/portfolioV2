@@ -7,6 +7,8 @@ import Sidebars from "./components/Sidebars";
 import Footer from "./components/Footer";
 
 function App() {
+  
+
   return (
     <div className="App bg-[#0E1800] py-1">
 
@@ -15,7 +17,7 @@ function App() {
       <main className="md:mx-[10%] mx-4">
 
         <Welcome/>
-        <About />
+        <About/>
         <Work/>
         <Contact/>
 
