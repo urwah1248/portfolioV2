@@ -7,7 +7,6 @@ import Sidebars from "./components/Sidebars";
 import Footer from "./components/Footer";
 
 function App() {
-  
 
   return (
     <div className="App bg-[#0E1800] py-1">
@@ -22,9 +21,9 @@ function App() {
         <Contact/>
 
       </main>
-
-      <Sidebars/>
+      
       <Footer/>
+      <Sidebars/>
 
     </div>
   );
