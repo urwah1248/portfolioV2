@@ -5,9 +5,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['sfpro', 'sans-serif'],
-      serif: ['sfpro', 'serif'],
-      mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+      sans: ['Inter', 'sans-serif'],
+      serif: ['Inter', 'serif'],
+      mono: ['Source Code Pro','ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
     },
     extend: {
       colors: {

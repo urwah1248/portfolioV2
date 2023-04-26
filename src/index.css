@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto+Mono:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +14,7 @@ html{
         @apply font-mono text-lg text-accent
     }
     h2{
-        @apply text-3xl text-gray-300 my-8 font-[sfprobold]
+        @apply text-3xl text-gray-300 my-8 font-sans font-bold tracking-tight
     }
     p{
         @apply font-sans text-lg text-gray-400

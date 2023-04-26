@@ -4,8 +4,8 @@ const Welcome = () => {
   return (
     <div id='welcome' className='section'>
       <h3 className='ml-1'>Hi, my name is</h3>
-      <h1 className='title my-[0.5vw] text-gray-300 text-[9vw] font-[helveticabold] md:text-6xl'>Muhammad <span className='text-accent'> Urwah.</span></h1>
-      <h1 className='text-gray-400 my-[0.5vw] text-[9vw] font-[helveticabold] md:text-6xl'>Frontend Developer</h1>
+      <h1 className='title my-[0.5vw] text-gray-300 text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>Muhammad <span className='text-accent'> Urwah.</span></h1>
+      <h1 className='text-gray-400 my-[0.5vw] text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>Frontend Developer</h1>
       <p className='ml-1 md:w-1/2'>
         I'm a software engineer specializing in building the frontend of websites and mobile applications. I'm focused towards building beautiful UIs for my apps.
       </p>

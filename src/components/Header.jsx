@@ -41,17 +41,17 @@ const Header = () => {
         <ul className="hidden md:flex navmenu flex-row justify-evenly text-gray-300 w-1/2 leading-[50px] font-mono">
           <li>
             <a href="#about" className="hover:text-accent active:text-accent">
-              01. <span className="text-accent">About</span>
+              <span className="text-accent">01.</span> About
             </a>
           </li>
           <li>
             <a href="#work" className="hover:text-accent active:text-accent">
-              02. <span className="text-accent">Work</span>
+              <span className="text-accent">02.</span> Work
             </a>
           </li>
           <li>
             <a href="#contact" className="hover:text-accent active:text-accent">
-              03. <span className="text-accent">Contact</span>
+            <span className="text-accent">03.</span> Contact
             </a>
           </li>
           <li>
