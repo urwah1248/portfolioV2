@@ -10,7 +10,7 @@ const Sidebars = () => {
       <div className="hidden left-fixedbar md:block fixed w-6 h-[400px] bottom-0 left-5">
         <div className="icons flex flex-col gap-4">
           <a href="https://github.com/urwah1248" target='_blank' rel="noreferrer"><IconGitHub/></a>
-          <a href="https://www.linkedin.com/in/muhammad-urwah-053a38229/" target='_blank' rel="noreferrer"><IconLinkedin/></a>
+          <a href="https://www.linkedin.com/in/muhammad-urwah/" target='_blank' rel="noreferrer"><IconLinkedin/></a>
           <a href="https://twitter.com/urwah1248" target='_blank' rel="noreferrer"><IconTwitter/></a>
           <div className='h-[300px] w-1 bg-gray-400 mx-auto'></div>
         </div>
