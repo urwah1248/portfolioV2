@@ -3,7 +3,7 @@ import projects from '../projects'
 
 const Work = () => {
   return (
-    <div id="work" className="flex flex-col md:h-[90vh]">
+    <div id="work" className="section flex flex-col">
       <h2>
         <span className="font-mono text-accent">02.</span> Some Things I have Built
       </h2>

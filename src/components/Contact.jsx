@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id="contact" className="section h-[50vh] md:h-screen scroll-m-[-50px] my-0 md:my-10">
+    <div id="contact" className="section h-screen md:h-screen scroll-m-[-50px] my-0 md:my-10">
       <h2>
         <span className="font-mono text-accent">03.</span> Get in touch
       </h2>
@@ -14,9 +14,6 @@ const Contact = () => {
           <a href="mailto:urwahpatel@gmail.com" className='block mx-auto'>
             <button className='font-mono my-10 text-accent border-2 border-accent hover:bg-accent hover:text-black h-8 px-4 rounded-md leading-none transition-[250ms]'>Email me</button>
           </a>
-        </div>
-        <div className="links md:hidden">
-
         </div>
       </div>
         

@@ -18,9 +18,10 @@ const Sidebars = () => {
 
       <div className="hidden right-fixedbar md:block fixed w-6 h-[400px] bottom-0 right-5">
         <div className="flex flex-col gap-4">
-            <a className='iconhover mb-[164px] rotate-90 text-gray-400 font-mono' href='mailto:urwahpatel@gmail.com'>urwahpatel@gmail.com</a>
-        </div>
+            <a className='iconhover mb-[164px] rotate-90 text-gray-400 font-mono -mr-1' href='mailto:urwahpatel@gmail.com'>urwahpatel@gmail.com</a>
+        
         <div className='relative w-1 h-80 bg-gray-400 mx-auto'></div>
+        </div>
       </div>
     </div>
   )
