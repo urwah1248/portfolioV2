@@ -11,20 +11,20 @@ const About = () => {
       <div className="all flex flex-col sm:flex-row">
         <div className="left w-full sm:w-1/2">
           <p>
-            Hello, My name is Urwah and I enjoy creating things for the
-            internet. Even as a child I always wanted to know how are these
-            softwares and games are made and wanted to make them myself as well.
-            It lead me to my first ever coding problem of creating a blogspot on
-            blogger.
+            Greetings, my name is Urwah, and I possess a profound passion
+            for crafting digital experiences on the internet. Even in my early years,
+            I harbored a curiosity about the inner workings of software and game
+            development, driving me to pursue the art of creating them myself. 
+            This curiosity materialized as my very first coding endeavor—a blogger blogspot.
           </p>
           <br />
           <p>
-            Now, I am a student of software engineering at Sindh Madressatul
-            Islam University. My main focus right now is to keep learning and
-            building websites and apps.
+            Currently, I am pursuing a software engineering degree at Sindh Madressatul Islam
+            University. My primary objective at present is to maintain a steadfast commitment
+            to continual learning and honing my skills in website and application development.
           </p>
           <br />
-          <p>Here are few of the technologies that I frequently work on:</p>
+          <p>Here are few of the technologies that I frequently work with:</p>
           <br />
           <div className="flex justify-between text-gray-400 font-mono">
             <ul>

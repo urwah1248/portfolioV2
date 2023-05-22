@@ -7,7 +7,7 @@ const Welcome = () => {
       <h1 className='title my-[0.5vw] text-gray-300 text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>Muhammad <span className='text-accent'> Urwah.</span></h1>
       <h1 className='text-gray-400 my-[0.5vw] text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>Frontend Developer</h1>
       <p className='ml-1 md:w-1/2'>
-        I'm a software engineer specializing in building the frontend of websites and mobile applications. I'm focused towards building beautiful UIs for my apps.
+      As a software engineer, I possess expertise in constructing the frontend components of Web Applications. Creating aesthetically pleasing user interfaces (UIs) and Useful functionalities.
       </p>
       <a href="#about">
         <button className='block text-gray-300 mx-auto border-2 border-bg hover:border-gray-300 rounded-full p-4'>
