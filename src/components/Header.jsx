@@ -28,7 +28,7 @@ const Header = () => {
   }, [prevScrollPos])
 
   return (
-    <nav className={`backdrop-blur-md fixed h-[80px] inset-0 flex justify-center md:justify-between md:p-[20px] w-full transition-['250ms'] ${visible ? '' : 'top-[-100px]'}`}>
+    <nav className={`z-10 backdrop-blur-md fixed h-[80px] inset-0 flex justify-center md:justify-between md:p-[20px] w-full transition-['250ms'] ${visible ? '' : 'top-[-100px]'}`}>
       <div className="logo my-auto">
         <a href="#welcome">
           <img src={logo}

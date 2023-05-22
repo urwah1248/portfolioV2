@@ -28,12 +28,12 @@ const About = () => {
           <br />
           <div className="flex justify-between text-gray-400 font-mono">
             <ul>
-              <li>HTML CSS Javascript</li>
+              <li>HTML, CSS & Javascript</li>
               <li>React</li>
             </ul>
             <ul>
-              <li>React Native</li>
-              <li>Tailwind</li>
+              <li>NextJS</li>
+              <li>TailwindCSS</li>
             </ul>
           </div>
         </div>
