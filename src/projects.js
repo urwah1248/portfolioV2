@@ -46,8 +46,8 @@ const projects = [
         title: "10 Days 10 Projects",
         detail: "10 JavaScript projects made within 10 days",
         img: p5,
-        repo: "https://github.com/urwah1248/30-Days-Of-Code",
-        prev: "https://urwah1248.github.io/30-Days-Of-Code"
+        repo: "https://urwah1248.github.io/10-Days-10-Projects/",
+        prev: "https://github.com/urwah1248/10-Days-10-Projects"
     }
 ]
 
