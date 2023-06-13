@@ -12,7 +12,7 @@ const projects = [
         detail: "Full stack Ecommerce Store Built using Next JS, Node JS and MongoDB. Work in Progress....",
         img: p6,
         repo: "https://github.com/urwah1248/next-ecommerce-app-fashio-store",
-        prev: "https://fashiostore.netlify.app"
+        prev: "https://fashiostore.vercel.app"
     },
     {
         title: "Little Lemon's Restaurant",
