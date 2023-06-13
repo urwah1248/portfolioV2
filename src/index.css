@@ -32,7 +32,7 @@ html{
         @apply font-[sfprobold] text-gray-300 mt-4
     }
     .thumbnail{
-        @apply h-3/4 w-full object-cover object-top
+        @apply min-h-[60%] max-h-[60%] w-full object-cover object-top
     }
     .feather{
         @apply text-gray-400 hover:text-accent cursor-pointer iconhover
