@@ -16,7 +16,7 @@ const projects = [
     },
     {
         title: "Little Lemon's Restaurant",
-        detail: "Website for the Little Lemon's Restaurant built using HTML, CSS and JS",
+        detail: "Website for the Little Lemon's Restaurant built using plain HTML, CSS and JS",
         img: p4,
         repo: "https://github.com/urwah1248/Little-Lemon-Restaurant-Website",
         prev: "https://urwah1248.github.io/Little-Lemon-Restaurant-Website/"
@@ -43,8 +43,8 @@ const projects = [
         prev: "https://know-your-countries-urwah1248.netlify.app/"
     },
     {
-        title: "30 Days of Code",
-        detail: "30 JavaScript projects made within 30 days",
+        title: "10 Days 10 Projects",
+        detail: "10 JavaScript projects made within 10 days",
         img: p5,
         repo: "https://github.com/urwah1248/30-Days-Of-Code",
         prev: "https://urwah1248.github.io/30-Days-Of-Code"
