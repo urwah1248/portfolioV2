@@ -9,7 +9,7 @@ const Welcome = () => {
           Muhammad
           <span className='text-accent'> Urwah.</span>
         </h1>
-        <h1 className='text-gray-400 my-[0.5vw] text-[26px] leading-none sm:text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>
+        <h1 className='text-gray-300 my-[0.5vw] text-[26px] leading-none sm:text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>
           Frontend Developer
         </h1> 
       </div>

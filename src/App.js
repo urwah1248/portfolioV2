@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
-    <div className="App bg-[#0E1800] py-1">
+    <div className="App bg-bg py-1">
 
       <Header/>
 

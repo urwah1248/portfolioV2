@@ -26,7 +26,7 @@ html{
         @apply flex flex-wrap
     }
     .card{
-        @apply overflow-hidden flex flex-col justify-between w-full min-h-[300px] sm:min-h-[300px] p-4 sm:w-1/2 md:w-1/3 border-2 border-bg hover:border-accent bg-[#002c04]
+        @apply overflow-hidden flex flex-col justify-between w-full min-h-[300px] sm:min-h-[300px] p-4 sm:w-1/2 md:w-1/3 border-2 border-bg hover:border-accent bg-card
     }
     .card-header{
         @apply font-[sfprobold] text-gray-300 mt-4
@@ -57,13 +57,13 @@ html{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #159e00;
+    background: #3489c7;
     border-radius: 3px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #20E300;
+    background: #41a6f0;
   }
 
 @font-face {

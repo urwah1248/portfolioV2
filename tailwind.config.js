@@ -11,8 +11,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        'accent': '#20E300',
-        'bg': '#0E1800',
+        'accent': '#5db9fc',
+        'bg': '#051929',
+        'card': '#092942',
+        'manlyFont': '#E6DAC7',
       },
     },
   },
