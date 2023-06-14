@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <div id="work" className="section flex flex-col">
       <h2>
-        <span className="font-mono text-accent">02.</span> Some Things I have Built
+        <span className="font-mono text-accent">02.</span> Some of my Work
       </h2>
       <div className="cards">
 

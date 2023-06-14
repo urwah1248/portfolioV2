@@ -26,7 +26,7 @@ const About = () => {
           <br />
           <p>Here are few of the technologies that I frequently work with:</p>
           <br />
-          <div className="flex justify-between text-gray-400 font-mono">
+          <div className="flex flex-col text-center mb-5 leading-10 md:flex-row justify-between text-gray-400 font-mono font-bold text-xl">
             <ul>
               <li>HTML, CSS & Javascript</li>
               <li>React</li>
