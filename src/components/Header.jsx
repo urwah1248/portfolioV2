@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import logo from '../media/portfoliologo.png'
+import logo from '@/media/portfoliologo.png'
+import Image from 'next/image'
 
 
 const Header = () => {
@@ -10,6 +11,7 @@ const Header = () => {
   useEffect( () => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY
+      console.log("scroll");
   
       if(currentScrollPos > prevScrollPos){
           setVisible(false)
@@ -28,10 +30,12 @@ const Header = () => {
   }, [prevScrollPos])
 
   return (
-    <nav className={`z-10 backdrop-blur-md fixed h-[80px] inset-0 flex justify-between md:justify-between md:p-[20px] w-full md:w-full transition-['250ms'] ${visible ? '' : 'top-[-100px]'}`}>
+    <nav className={`z-10 backdrop-blur-md h-[80px] inset-0 flex justify-between md:justify-between md:p-[20px] w-full md:w-full transition-['250ms'] ${visible ? '' : 'top-[-100px]'}`}>
       <div className="logo my-auto ml-5">
         <a href="#welcome">
-          <img src={logo}
+          <Image src={logo}
+            width={120}
+            height={0}
             className="h-[40px] my-[5px] ml-[5px] hover:cursor-pointer md:hover:scale-[150%] transition-[250ms]"
             alt="logo"
           />

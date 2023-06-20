@@ -1,5 +1,6 @@
-import pfp from '../media/profile-pic.png'
+import pfp from '@/media/profile-pic.png'
 import React from 'react'
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -38,7 +39,8 @@ const About = () => {
           </div>
         </div>
         <div className="right w-full sm:w-1/2 align-middle">
-          <img src={pfp} alt="Urwah" className="w-[50vw] sm:w-[25vw] mx-auto rounded-full md:opacity-50 transition-[250ms] hover:opacity-100 md:hover:scale-[110%] z-0" />
+          <Image src={pfp} alt="Urwah"
+          className="w-[50vw] sm:w-[25vw] mx-auto rounded-full md:opacity-50 transition-[250ms] hover:opacity-100 md:hover:scale-[110%] z-0" />
         </div>
       </div>
     </div>
