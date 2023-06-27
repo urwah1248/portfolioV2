@@ -16,7 +16,7 @@ const projects = [
     },
     {
         title: "Fashio Store",
-        detail: "Full stack Ecommerce Store Built using Next JS, Node JS and MongoDB. Work in Progress....",
+        detail: "Full stack Ecommerce Store Built using Next JS, Node JS and MongoDB.",
         img: p6,
         repo: "https://github.com/urwah1248/next-ecommerce-app-fashio-store",
         prev: "https://fashiostore.vercel.app"
