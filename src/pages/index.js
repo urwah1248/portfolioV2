@@ -3,8 +3,15 @@ import About from '@/components/About'
 import Work from '@/components/Work'
 import Contact from '@/components/Contact'
 import Head from 'next/head'
+import { useEffect } from 'react'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default function Home() {
+  useEffect(() => {
+    console.log('useEffect hook is working!');
+    // Rest of your effect logic
+  }, []);
   return (
     <>
       <Head>
@@ -25,12 +32,17 @@ export default function Home() {
         <meta name="og:description" content="Frontend Developer portfolio showcasing few projects."/>
       </Head>
       
+      <Header/>
+      
       <main className='md:mx-[10%] mx-4'>
         <Welcome/>
         <About/>
         <Work/>
         <Contact/>
       </main>
+
+      
+      <Footer/>
     </>
   )
 }

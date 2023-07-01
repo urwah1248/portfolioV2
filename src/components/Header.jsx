@@ -11,7 +11,6 @@ const Header = () => {
   useEffect( () => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY
-      console.log("scroll");
   
       if(currentScrollPos > prevScrollPos){
           setVisible(false)
@@ -30,7 +29,7 @@ const Header = () => {
   }, [prevScrollPos])
 
   return (
-    <nav className={`z-10 backdrop-blur-md h-[80px] inset-0 flex justify-between md:justify-between md:p-[20px] w-full md:w-full transition-['250ms'] ${visible ? '' : 'top-[-100px]'}`}>
+    <nav className={`fixed z-10 backdrop-blur-md h-[80px] inset-0 flex justify-between md:justify-between md:p-[20px] w-full md:w-full transition-['250ms'] ${visible ? '' : 'top-[-100px]'}`}>
       <div className="logo my-auto ml-5">
         <a href="#welcome">
           <Image src={logo}
