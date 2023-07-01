@@ -1,12 +1,4 @@
-// import p1 from '/project1.png'
-// import p2 from '/project2.png'
-// import p3 from '/project3.png'
-// import p4 from '/project4.png'
-// import p5 from '/project5.png'
-// import p6 from '/project6.png'
-
-
-const projects = [
+    const projects = [
     {
         title: "Explain it GPT",
         detail: "AI application that uses ChatGPT API to explain terms.",
@@ -16,14 +8,14 @@ const projects = [
     },
     {
         title: "Fashio Store",
-        detail: "Full stack Ecommerce Store Built using Next JS, Node JS and MongoDB. Work in Progress....",
+        detail: "Full stack Ecommerce Store Built using Next JS, Node JS and MongoDB.",
         img: '/project6.png',
         repo: "https://github.com/urwah1248/next-ecommerce-app-fashio-store",
         prev: "https://fashiostore.vercel.app"
     },
     {
         title: "Apple Clone",
-        detail: "Simple Clone of the Apple's website built using HTMl and tailwind css.",
+        detail: "Simple Clone of the Apple's website built using HTML and tailwind css.",
         img: '/project3.png',
         repo: "https://github.com/urwah1248/Apple-Site-Clone",
         prev: "https://urwah1248.github.io/Apple-Site-Clone/"
