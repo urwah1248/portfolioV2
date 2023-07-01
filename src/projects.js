@@ -2,7 +2,7 @@
     {
         title: "Explain it GPT",
         detail: "AI application that uses ChatGPT API to explain terms.",
-        img: '/project1.png',
+        img: '/project01.png',
         repo: "https://github.com/urwah1248/Explain-it-GPT",
         prev: "https://explain-it-gpt.vercel.app"
     },
