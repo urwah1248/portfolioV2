@@ -30,7 +30,7 @@
     {
         title: "Know the Countries",
         detail: "Get to know your countries with this search engine. Built using react.",
-        img: '/project2.png',
+        img: '/project02.png',
         repo: "https://github.com/urwah1248/know-the-Countries",
         prev: "https://know-your-countries-urwah1248.netlify.app/"
     },
