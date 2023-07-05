@@ -31,15 +31,19 @@ const About = () => {
           <br />
           <p>Here are few of the technologies that I frequently work with:</p>
           <br />
-          <div className="flex flex-col text-center mb-5 leading-10 md:flex-row justify-between text-gray-400 font-mono font-bold text-xl">
-            <ul>
-              <li>HTML, CSS & Javascript</li>
-              <li>React</li>
-            </ul>
-            <ul>
-              <li>NextJS</li>
-              <li>TailwindCSS</li>
-            </ul>
+          <div className='flex gap-3 flex-wrap'>
+            <div className="bg-orange-600 skill">HTML</div>
+            <div className="bg-blue-500 skill">CSS</div>
+            <div className="bg-yellow-300 skill">JavaScript</div>
+            <div className="bg-sky-400 skill">React</div>
+            <div className="bg-gray-800 text-gray-300 skill">NextJS</div>
+            <div className="bg-cyan-300 skill">TailwindCSS</div>
+            <div className="bg-sky-500 skill">TypeScript</div>
+            <div className="bg-emerald-500 skill">NodeJS</div>
+            <div className="bg-yellow-500 skill">Express</div>
+            <div className="bg-green-400 skill ">MongoDB</div>
+            <div className="bg-gray-300 skill ">Unity</div>
+            <div className="bg-amber-300 skill">SQL</div>
           </div>
         </div>
       </div>

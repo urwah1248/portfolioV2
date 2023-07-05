@@ -14,6 +14,13 @@
         prev: "https://fashiostore.vercel.app"
     },
     {
+        title: "Know the Countries",
+        detail: "Get to know your countries with this search engine. Built using react.",
+        img: '/project02.png',
+        repo: "https://github.com/urwah1248/know-the-Countries",
+        prev: "https://know-your-countries-urwah1248.netlify.app/"
+    },
+    {
         title: "Apple Clone",
         detail: "Simple Clone of the Apple's website built using HTML and tailwind css.",
         img: '/project3.png',
@@ -26,13 +33,6 @@
         img: '/project4.png',
         repo: "https://github.com/urwah1248/Little-Lemon-Restaurant-Website",
         prev: "https://urwah1248.github.io/Little-Lemon-Restaurant-Website/"
-    },
-    {
-        title: "Know the Countries",
-        detail: "Get to know your countries with this search engine. Built using react.",
-        img: '/project02.png',
-        repo: "https://github.com/urwah1248/know-the-Countries",
-        prev: "https://know-your-countries-urwah1248.netlify.app/"
     },
     {
         title: "10 Days 10 Projects",

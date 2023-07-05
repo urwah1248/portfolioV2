@@ -24,11 +24,11 @@ export default function Home() {
           content="Developer Portfolio of Muhammad Urwah"
         />
         <meta name="twitter:title" content="Portfolio | Muhammad Urwah"/>
-        <meta name="twitter:image" content="/portfoliocover.png"/>
+        <meta name="twitter:image" content="%PUBLIC_URL%/portfoliocover.png"/>
         <meta name="twitter:description" content="Frontend Developer portfolio showcasing few projects."/>
 
         <meta name="og:title" content="Portfolio | Muhammad Urwah"/>
-        <meta name="og:image" content="/portfoliocover.png"/>
+        <meta name="og:image" content="%PUBLIC_URL%/portfoliocover.png"/>
         <meta name="og:description" content="Frontend Developer portfolio showcasing few projects."/>
       </Head>
       
