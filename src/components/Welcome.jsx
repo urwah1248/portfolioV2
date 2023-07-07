@@ -5,7 +5,7 @@ const Welcome = () => {
     <div id='welcome' className='section h-screen'>
       <div id="greet">
         <h3 className='ml-1'>Hi, my name is</h3>
-        <h1 className='title my-[0.5vw] text-slate-300 text-[44px] leading-none sm:text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>
+        <h1 className='title my-[0.5vw] text-slate-300 text-[44px] leading-none sm:text-[9vw] font-sans font-black md:text-6xl tracking-tight'>
           Muhammad
           <span className='text-accent'> Urwah.</span>
         </h1>
@@ -24,7 +24,9 @@ const Welcome = () => {
           </svg>
         </button>
       </a>
+      
     </div>
+    
   )
 }
 

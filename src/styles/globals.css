@@ -11,7 +11,7 @@ html{
 
 @layer base{
     .skill{
-        @apply py-1 px-3 hover:-translate-y-1 transition-[100ms] font-bold text-[rgba(0,0,0,0.7)] rounded-sm flex-grow text-center
+        @apply py-1 px-3 hover:-translate-y-1 transition-[100ms] font-bold text-[rgba(0,0,0,0.5)] rounded-sm flex-grow text-center
     }
     h3{
         @apply font-mono text-lg text-accent
