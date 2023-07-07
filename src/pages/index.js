@@ -30,6 +30,8 @@ export default function Home() {
         <meta name="og:title" content="Portfolio | Muhammad Urwah"/>
         <meta name="og:image" content="%PUBLIC_URL%/portfoliocover.png"/>
         <meta name="og:description" content="Frontend Developer portfolio showcasing few projects."/>
+
+        <meta name="google-site-verification" content="MobfQCNaGGKgy87BjX4BJuKhWKxMVvnV4NwDPhYV-8c" />
       </Head>
       
       <Header/>

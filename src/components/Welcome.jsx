@@ -10,11 +10,11 @@ const Welcome = () => {
           <span className='text-accent'> Urwah.</span>
         </h1>
         <h1 className='text-slate-300 my-[0.5vw] text-[26px] leading-none sm:text-[9vw] font-sans font-extrabold md:text-6xl tracking-tight'>
-          Frontend Developer
+          Full Stack Web Developer
         </h1> 
       </div>
       <p className='ml-1 md:w-1/2'>
-      As a software engineer, I possess expertise in constructing the frontend components of Web Applications. Creating aesthetically pleasing user interfaces (UIs) with Useful functionalities.
+        I possess expertise in constructing complete Web Applications with <strong className='text-accent'>Intuitive User Interfaces (UIs)</strong>, <strong className='text-accent'>Well-implemented Server-Side Architecture</strong> and <strong className='text-accent'>Accurate Data Management</strong>.
       </p>
       <a href="#about">
         <button className='block text-gray-300 mx-auto border-2 border-bg hover:border-gray-300 rounded-full p-4'>
