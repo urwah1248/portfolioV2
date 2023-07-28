@@ -10,8 +10,8 @@
         title: "Fashio Store",
         detail: "Full stack Ecommerce Store Built using Next JS, Node JS and MongoDB.",
         img: '/project6.png',
-        repo: "https://github.com/urwah1248/next-ecommerce-app-fashio-store",
-        prev: "https://fashiostore.vercel.app"
+        repo: "https://github.com/urwah1248/Fashio-Store",
+        prev: "https://fashio-store.vercel.app"
     },
     {
         title: "Know the Countries",
