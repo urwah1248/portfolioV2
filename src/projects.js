@@ -38,8 +38,8 @@
         title: "10 Days 10 Projects",
         detail: "10 JavaScript projects made within 10 days",
         img: '/project5.png',
-        repo: "https://urwah1248.github.io/10-Days-10-Projects/",
-        prev: "https://github.com/urwah1248/10-Days-10-Projects"
+        repo: "https://github.com/urwah1248/10-Days-10-Projects",
+        prev: "https://urwah1248.github.io/10-Days-10-Projects/"
     }
 ]
 
