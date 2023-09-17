@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import logo from '@/media/portfoliologo.png';
+'use client'
+
+import React, { useEffect, useState } from 'react';
+
 import Image from 'next/image';
+import logo from '@/media/portfoliologo.png';
 
 const Header = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -53,7 +56,7 @@ const Header = () => {
             src={logo}
             width={120}
             height={0}
-            className="h-[40px] my-[5px] ml-[5px] hover:cursor-pointer md:hover:scale-[150%] transition-[250ms]"
+            className="h-[40px] w-auto my-[5px] ml-[5px] hover:cursor-pointer md:hover:scale-[150%] transition-[250ms]"
             alt="logo"
           />
         </a>
