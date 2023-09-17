@@ -1,15 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import projects from '../projects'
 import Image from 'next/image'
 
 const Work = () => {
-  const [projects, setProjects] = useState([])
-  const [loading, setLoading] = useState(true)
-  useEffect(() => {
-    fetch("/api/projects")
-    .then(res => res.json())
-    .then(data => setProjects(data))
-    .then(() => setLoading(false))
-  },[])
+  const importedProjects = typeof window !== 'undefined' ? projects : ["none"]
   return (
     <div id="work" className="section flex flex-col">
       <h2>
@@ -17,8 +11,7 @@ const Work = () => {
       </h2>
       <div className="cards">
 
-        {loading? <div className='text-white w-full text-center'>LOADING PROJECTS</div> :
-        projects.map(project => (
+        {projects.map(project => (
           <div key={project.title} rel="noreferrer" className="card text-gray-400">
             {/* <img className='thumbnail' src={project.img} alt="Expense Tracker" /> */}
             <Image width={400} height={0} className='thumbnail' src={project.img} alt={`Image of ${project.title}`}/>
