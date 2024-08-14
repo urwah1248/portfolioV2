@@ -24,8 +24,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            Currently, I am pursuing a software engineering degree at Sindh Madressatul Islam
-            University. My primary objective at present is to maintain a steadfast commitment
+            My primary objective at present is to maintain a steadfast commitment
             to continual learning and honing my skills in website and application development.
           </p>
           <br />
@@ -44,6 +43,11 @@ const About = () => {
             <div className="bg-green-400 skill ">MongoDB</div>
             <div className="bg-gray-300 skill ">Unity</div>
             <div className="bg-amber-300 skill">SQL</div>
+            <div className="bg-orange-400 skill">Firebase</div>
+            <div className="bg-sky-500 skill">React Native</div>
+            <div className="bg-cyan-600 skill ">PostgreSQL</div>
+            <div className="bg-green-400 skill ">Supabase</div>
+            <div className="bg-blue-400 skill">Docker</div>
           </div>
         </div>
       </div>
