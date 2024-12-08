@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "SBK Japan",
+    detail:
+      "Car Dealership website built using Next JS, Firebase Storage and MySQL.",
+    img: "/sbk-japan.png",
+    prev: "https://www.sbkjapan.com",
+  },
+  {
     title: "Mavoc Technologies",
     detail:
       "Digital Marketing Agency Portfolio built using Next JS and Firebase.",
@@ -37,14 +44,14 @@ const projects = [
     repo: "https://github.com/urwah1248/know-the-Countries",
     prev: "https://know-your-countries-urwah1248.netlify.app/",
   },
-  {
-    title: "Apple Clone",
-    detail:
-      "Simple Clone of the Apple's website built using HTML and tailwind css.",
-    img: "/project3.png",
-    repo: "https://github.com/urwah1248/Apple-Site-Clone",
-    prev: "https://urwah1248.github.io/Apple-Site-Clone/",
-  },
+  // {
+  //   title: "Apple Clone",
+  //   detail:
+  //     "Simple Clone of the Apple's website built using HTML and tailwind css.",
+  //   img: "/project3.png",
+  //   repo: "https://github.com/urwah1248/Apple-Site-Clone",
+  //   prev: "https://urwah1248.github.io/Apple-Site-Clone/",
+  // },
   // {
   //     title: "Little Lemon's Restaurant",
   //     detail: "Website for the Little Lemon's Restaurant built using plain HTML, CSS and JS",
