@@ -1,6 +1,6 @@
-import pfp from '@/media/profile-pic.png'
-import React from 'react'
 import Image from 'next/image';
+import React from 'react'
+import pfp from '@/media/profile-pic.png'
 
 const About = () => {
   return (
@@ -8,7 +8,6 @@ const About = () => {
       <h2>
         <span className="font-mono text-accent">01.</span> About Me
       </h2>
-      
       <div className="all flex flex-col md:flex-row-reverse">
         <div className="right w-full md:w-1/2 align-middle mb-10">
           <Image src={pfp} alt="Urwah"
