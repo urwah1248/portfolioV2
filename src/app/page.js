@@ -1,8 +1,8 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Sidebars from "@/components/Sidebars";
-import Welcome from "@/components/Welcome";
-import Work from "@/components/Work";
+import About from "./_components/About";
+import Contact from "./_components/Contact";
+import Sidebars from "./_components/Sidebars";
+import Welcome from "./_components/Welcome";
+import Work from "./_components/Work";
 
 export default function Home() {
   return (

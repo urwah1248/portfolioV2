@@ -1,7 +1,7 @@
 import React from 'react'
-import IconGitHub from '../icons/Github'
-import IconLinkedin from '../icons/Linkedin'
-import IconTwitter from '../icons/Twitter'
+import IconGitHub from '@/icons/Github'
+import IconLinkedin from '@/icons/Linkedin'
+import IconTwitter from '@/icons/Twitter'
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="https://twitter.com/shahid_urwah" target='_blank' rel="noreferrer"><IconTwitter/></a>
       </div> */}
 
-      <p className='font-mono text-center text-gray-500'>All rights reserved. <br className='md:hidden'/> Created by Muhammad Urwah</p>
+      <p className='font-mono text-center text-gray-500 py-4'>All rights reserved. <br className='md:hidden'/> Created by Muhammad Urwah</p>
     </footer>
   )
 }

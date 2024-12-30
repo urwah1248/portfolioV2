@@ -1,8 +1,11 @@
 import "./globals.css";
+import "./animate.css";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { Inter } from "next/font/google";
+
+import Footer from "./_components/Footer";
+import Header from "./_components/Header";
+import WowMain from "./_components/WowMain";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +40,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className + " bg-bg"}>
         <Header />
-        {children}
+        <WowMain>{children}</WowMain>
         <Footer />
       </body>
     </html>
