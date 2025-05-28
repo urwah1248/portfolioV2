@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "MJG Decorators",
+    detail:
+      "Decoration Company Website built using Next JS and Firebase.",
+    img: "/mjg-decorators.png",
+    prev: "https://mjgdecorators.com",
+  },
+  {
     title: "SBK Japan",
     detail:
       "Car Dealership website built using Next JS, Firebase Storage and MySQL.",
@@ -36,14 +43,14 @@ const projects = [
     repo: "https://github.com/urwah1248/Explain-it-GPT",
     prev: "https://explain-it-gpt.vercel.app",
   },
-  {
-    title: "Know the Countries",
-    detail:
-      "Get to know your countries with this search engine. Built using react.",
-    img: "/project02.png",
-    repo: "https://github.com/urwah1248/know-the-Countries",
-    prev: "https://know-your-countries-urwah1248.netlify.app/",
-  },
+  // {
+  //   title: "Know the Countries",
+  //   detail:
+  //     "Get to know your countries with this search engine. Built using react.",
+  //   img: "/project02.png",
+  //   repo: "https://github.com/urwah1248/know-the-Countries",
+  //   prev: "https://know-your-countries-urwah1248.netlify.app/",
+  // },
   // {
   //   title: "Apple Clone",
   //   detail:
